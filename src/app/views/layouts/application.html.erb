@@ -7,70 +7,14 @@
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-
-
+    <script src="assets/theme/jquery.min.js"></script>
+    <script src="assets/theme/jquery.dropotron.min.js"></script>
+    <script src="assets/theme/jquery.scrollex.min.js"></script>
+    <script src="assets/theme/browser.min.js"></script>
+    <script src="assets/theme/breakpoints.min.js"></script>
+    <script src="assets/theme/util.js"></script>
+    <script src="assets/theme/main.js"></script>
   </head>
-  <style type="text/css">
-  html, body, #googft-mapCanvas {
-    height: 300px;
-    margin: 0;
-    padding: 0;
-    width: 500px;
-  }
-  #googft-legend {
-    background-color: #fff;
-    border: 1px solid #000;
-    font-family: Arial,sans-serif;
-    font-size: 12px;
-    margin: 5px;
-    padding: 10px 10px 8px;
-  }
-
-  #googft-legend p {
-    font-weight: bold;
-    margin-top: 0;
-  }
-
-  #googft-legend div {
-    margin-bottom: 5px;
-  }
-
-  .googft-legend-swatch {
-    border: 1px solid;
-    float: left;
-    height: 12px;
-    margin-right: 8px;
-    width: 20px;
-  }
-
-  .googft-legend-range {
-    margin-left: 0;
-  }
-
-  .googft-dot-icon {
-    margin-right: 8px;
-  }
-
-  .googft-paddle-icon {
-    height: 24px;
-    left: -8px;
-    margin-right: -8px;
-    position: relative;
-    vertical-align: middle;
-    width: 24px;
-  }
-
-  .googft-legend-source {
-    margin-bottom: 0;
-    margin-top: 8px;
-  }
-
-  .googft-legend-source a {
-    color: #666;
-    font-size: 11px;
-  }
-
-  </style>
 
   <body>
     <%= yield %>
