@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Street:</strong>
+  <%= @no_parking_zone.street %>
+</p>
+
+<p>
+  <strong>Reason:</strong>
+  <%= @no_parking_zone.reason %>
+</p>
+
+<p>
+  <strong>Date:</strong>
+  <%= @no_parking_zone.date %>
+</p>
+
+<p>
+  <strong>Latitude:</strong>
+  <%= @no_parking_zone.latitude %>
+</p>
+
+<p>
+  <strong>Longitude:</strong>
+  <%= @no_parking_zone.longitude %>
+</p>
+
+<%= link_to 'Edit', edit_no_parking_zone_path(@no_parking_zone) %> |
+<%= link_to 'Back', no_parking_zones_path %>
