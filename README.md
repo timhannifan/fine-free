@@ -1,11 +1,12 @@
-## What civic issue does this address?
+# minml
 
-Streets and parking spots in Chicago (and other cities) are often inaccessible on an ad-hoc basis due to residential permits, construction, street cleaning, snow removal, parades and festivals, police activity, fallen trees, movie permitting, and other reasons. Street parking is a veritable minefield in large cities around the world.
+### About
+Stree parking spots are often inaccessible on an ad-hoc basis due to residential permits, construction, street cleaning, snow removal, parades and festivals, police activity, fallen trees, movie permitting, and other reasons. Street parking is a veritable fine minefield in cities around the world.
 
-Although some cities publish a list of street closures, they usually do not cover these types of temporary and unexpected events. This app provides a way for people to report local parking information, and access real-time updates for their current location anywhere in the world.
+Although some cities publish lists of street parking closures, they usually do not cover these types of temporary and unexpected events. This app provides a way for people to report local parking information, and access real-time updates for their current location anywhere in the world.
 
 
-## Usage
+### Usage
 To run locally, ensure that you have the requirements below installed, then clone the repo and start the Rails app.
 
 ```
