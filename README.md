@@ -1,4 +1,4 @@
-# minml
+# fine-free
 
 ### About
 Stree parking spots are often inaccessible on an ad-hoc basis due to residential permits, construction, street cleaning, snow removal, parades and festivals, police activity, fallen trees, movie permitting, and other reasons. Street parking is a veritable fine minefield in cities around the world.
