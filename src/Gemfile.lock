@@ -74,7 +74,7 @@ GEM
     coffee-script-source (1.12.2)
     concurrent-ruby (1.1.5)
     crass (1.0.4)
-    dalli (2.7.10)
+    dalli (3.2.3)
     duktape (2.3.0.0)
     erubi (1.8.0)
     execjs (2.7.0)
